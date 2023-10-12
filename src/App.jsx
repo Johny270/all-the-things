@@ -70,6 +70,14 @@ const App = () => {
     },
   ]
 
+  const jonathanThings = [
+    {
+      name: "Books",
+      image: "https://unsplash.com/photos/HH4WBGNyltc",
+      attributes: ['Bring knowledge']
+    }
+  ]
+
 
   return (
     <Routes>
