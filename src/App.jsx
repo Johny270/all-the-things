@@ -5,6 +5,17 @@ import SillyThings from './pages/SillyThings/SillyThings'
 import Landing from './pages/Landing/Landing'
 
 const App = () => {
+  const natesThings = [
+    {
+      name: 'Guitar',
+      image: 'https://cf1.zzounds.com/media/productmedia/fit,2018by3200/quality,85/1_Full_Straight_Front_NA-d19a3d566a3e61fd59c0945a41c06bb6.jpg',
+      attributes: [
+        'smooth',
+        'face-melting',
+      ]
+    }
+  ]
+
   const bensThings = [
     {
       name: 'banana',
