@@ -62,6 +62,15 @@ const App = () => {
     },
   ]
 
+  const elliesThings = [
+    {
+      name: "water",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["efficient", "reusability", "healthy", "good"],
+    },
+  ]
+
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
