@@ -5,6 +5,15 @@ import SillyThings from './pages/SillyThings/SillyThings'
 import Landing from './pages/Landing/Landing'
 
 const App = () => {
+
+  const tuansThing = [
+    {
+      name: 'kiwi',
+      image: 'https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80',
+      attributes: ['tasty', 'fluffy', 'breakfast', 'yummy'],
+    }
+  ]
+
   const bensThings = [
     {
       name: 'banana',
@@ -57,7 +66,7 @@ const App = () => {
   const huntersThings = [
     {
       name: "energy drinks",
-      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
