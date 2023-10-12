@@ -71,13 +71,22 @@ const App = () => {
     },
   ]
 
+  const elliesThings = [
+    {
+      name: "water",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["efficient", "reusability", "healthy", "good"],
+    },
+  ]
+
   const jonathanThings = [
     {
       name: "Books",
-      image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-      attributes: ["appease mood", "increase knowledge"]
+      image: "https://unsplash.com/photos/HH4WBGNyltc",
+      attributes: ['Bring knowledge']
     }
   ]
+
 
   return (
     <Routes>
